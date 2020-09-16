@@ -1,0 +1,68 @@
+.SPFxFileUploader {
+    /* relatively position the container bc the contents are absolute */
+    position: relative;
+    color: black;
+    padding: 20px;
+}
+
+.SPFxFileUploader .container {
+    width: 100%;
+}
+
+.SPFxFileUploader .noFileText {
+    font-size: 2em;
+    color: #aeaeae;
+    text-align: center;
+}
+
+.SPFxFileUploader .uploadbtn {
+    margin-bottom: 10px;
+}
+
+.SPFxFileUploader .showFiles {
+    padding-top: 10px;
+}
+
+.SPFxFileUploader .showFiles .fileName {
+    padding: 5px 10px;
+    background-color: #80808021;
+    width: max-content;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+}
+
+.SPFxFileUploader .showFiles .fileName i {
+    font-size: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.SPFxFileUploader .addFilesSection {
+    border: 1px dashed lightgrey;
+    min-height: 100px;
+}
+
+.SPFxFileUploader .SPFxFileUploader .spoFiles {
+    padding-top: 6px;
+}
+
+.SPFxFileUploader .fileUploadStatus {
+    float: left;
+    padding: 5px 2px;
+    cursor: auto;
+}
+
+.SPFxFileUploader button {
+    border-radius: 10px;
+    padding-right: 0 10px;
+    margin-right: 10px;
+}
+
+.SPFxFileUploader .addIcon i {
+    font-size: 14px;
+}
+
+.SPFxFileUploader input[type="file"] {
+    display: none;
+}
